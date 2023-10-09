@@ -1,0 +1,35 @@
+html {
+  background-color: orange;
+  margin: 25px;
+}
+.Buttons {
+  --background-color: #005aff;
+  --background-color-dark: #002d81;
+
+  display: inline-block;
+  margin: 0 8px;
+  padding: 10px 16px;
+  font-family: 'Boogaloo', cursive;
+  font-size: 24px;
+  border: none;
+  color: #ffff;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--background-color);
+  box-shadow: 6px 6px 0 var(--background-color-dark);
+}
+.Buttons:active {
+  transform: translateX(2px) translateY(2px);
+  box-shadow: 4px 4px 0 var(--background-color-dark);
+}
+.Buttons--secondary {
+  --background-color:  GREEN;
+  --background-color-dark:  rgb(0, 66, 0);
+}
+.mybeauty {
+  height: 150px;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 100px;
+}
